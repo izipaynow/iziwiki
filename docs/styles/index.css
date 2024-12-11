@@ -1,3 +1,7 @@
+:root {
+  --md-primary-fg-color:        #1F2C44;
+}
+
 .custom-btn-primary {
     display: inline-block;
     font-weight: 400;

@@ -6,18 +6,21 @@ nav:
     - Banco de dados: database.md
     - Documentação de repositórios: repository-docs.md
     - Ferramentas&Tecnologias: tech-tools.md
-    - Framework Growdev: frameworks.md
+    - Framework: frameworks.md
     - Git: git.md
     - REST API: rest-api.md
-    - Projetos internos: internal-projects.md
+    - Projetos internos: 
+      - Site Bankizi: site-bankizi.md
+      - Telemetria: telemetry.md
+
 
 theme: 
   name: material
   language: pt-BR
   palette:
-    primary: light blue
-    accent: deep orange
-  logo: img/logo_growdev.png
+    primary: custom
+    # accent: deep orange
+  logo: img/logo_bankizi.png
   favicon: img/favicon.ico
   font:
     text: Reddit

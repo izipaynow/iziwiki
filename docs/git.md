@@ -18,7 +18,7 @@ As mensagens devem ser preferencialmente em inglÃªs, a menos que haja recomendaÃ
 
 prefixo: mensagem do commit
 
-EXAMPLE: **Examplo**
+EXAMPLE: **Exemplo**
 `feat: create new endpoint to get all users`
 
 <h5>Tipos de prefixos:</h5>

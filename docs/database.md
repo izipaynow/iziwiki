@@ -57,7 +57,7 @@ EXAMPLE: **Exemplo**
 
 - Coluna para identificador único de registro (UUID ou GUID)
 
-<p>A coluna de identificador único de um registro (normalmente chave primária da tabela) deve ter preferência por valores aleatórios como UUID's como forma de segurança da informação [OWASP - API SECURITY](https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization/)</p>
+<p>A coluna de identificador único de um registro (normalmente chave primária da tabela) deve ter preferência por valores aleatórios como UUID's como forma de segurança da informação. Ver mais em: <a href="https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization/">OWASP - Api Security</a></p>
 
 - Coluna para senha do usuário
 
