@@ -1,0 +1,57 @@
+site_name: Iziwiki
+site_description: Wiki com boas práticas e documentações de tecnologias utilizadas na Bankizi.
+nav:
+  - Home: index.md
+  - Boas Práticas:
+    - Banco de dados: database.md
+    - Documentação de repositórios: repository-docs.md
+    - Ferramentas&Tecnologias: tech-tools.md
+    - Framework Growdev: frameworks.md
+    - Git: git.md
+    - REST API: rest-api.md
+    - Projetos internos: internal-projects.md
+
+theme: 
+  name: material
+  language: pt-BR
+  palette:
+    primary: light blue
+    accent: deep orange
+  logo: img/logo_growdev.png
+  favicon: img/favicon.ico
+  font:
+    text: Reddit
+    code: Reddit Mono
+  features:
+    - search.suggest
+
+extra_css:
+  - styles/index.css
+
+markdown_extensions:
+  - callouts
+
+plugins:
+  - search: {}
+  - encryptcontent:
+      password_inventory:
+        _global:
+          gniches: bankizi@2024
+          edson: bankizi@2024
+      title_prefix: ''
+      summary: 'Este conteúdo está protegido por senha.'      
+      placeholder: 'Senha'
+      placeholder_user: Usuário
+      password_button_text: 'Login'
+      decryption_failure_message: 'Usuário ou senha incorretos.'
+      encryption_info_message: ''
+      password_button: True
+      form_class: 'custom-grid'
+      input_class: 'custom-input'
+      button_class: 'custom-btn-primary'  
+  - git-revision-date-localized:
+      custom_format: 'Última atualização: %d/%m/%Y às %H:%M:%S'
+      type: custom
+      timezone: America/Sao_Paulo
+      locale: pt
+  
