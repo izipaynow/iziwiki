@@ -1,7 +1,7 @@
 # Sistema de Backoffice de MED
 
 WARNING: **Status da aplicação**
-**Em desenvolvimento**
+**Em produção**
 
 ---
 
