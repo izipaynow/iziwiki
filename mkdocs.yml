@@ -12,6 +12,10 @@ nav:
     - Projetos internos: 
       - Site Bankizi: site-bankizi.md
       - Telemetria: telemetry.md
+      - Backoffice de MED's: backoffice-meds.md
+      - Izipay: izipay.md
+      - Abertura de conta e Backoffice: account-backoffice.md
+      - Car Wash Machine: car-wash-machine.md
 
 
 theme: 
