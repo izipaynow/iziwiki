@@ -10,12 +10,12 @@ nav:
     - Git: git.md
     - REST API: rest-api.md
     - Projetos internos: 
+      - Abertura de conta e Backoffice: account-backoffice.md
+      - Backoffice de MED: backoffice-meds.md
+      - Car Wash Machine: car-wash-machine.md
+      - Izipay: izipay.md
       - Site Bankizi: site-bankizi.md
       - Telemetria: telemetry.md
-      - Backoffice de MED's: backoffice-meds.md
-      - Izipay: izipay.md
-      - Abertura de conta e Backoffice: account-backoffice.md
-      - Car Wash Machine: car-wash-machine.md
 
 
 theme: 
@@ -45,6 +45,7 @@ plugins:
         _global:
           gniches: bankizi@2024
           edson: bankizi@2024
+          yuri: bankizi@2025
       title_prefix: ''
       summary: 'Este conteúdo está protegido por senha.'      
       placeholder: 'Senha'
